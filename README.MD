@@ -1,0 +1,1 @@
+Güncel eksisozluk adresi girildiği zaman, tüm girişleri yeni belirlenen adrese yönlendirir. Tarayıcı geçmişindeki, örneğin 1999 veya 1923 vs ile biten adresler gibi linklerde yeni adrese yönlendirilir.
