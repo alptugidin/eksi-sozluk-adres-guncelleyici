@@ -5,7 +5,7 @@ chrome.storage.sync.get(['value'], (result) => {
 });
 
 chrome.storage.onChanged.addListener((changes, namespace) => {
-    for (let [key, { alpt, newValue }] of Object.entries(changes)) {
+    for (let [key, { newValue }] of Object.entries(changes)) {
         if (key === 'value') {
             val = newValue;
         }
